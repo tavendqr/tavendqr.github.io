@@ -1,0 +1,288 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    margin: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    ul a {
+        margin: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    ul a {
+        margin: 90px;
+    }
+}
+
+.hero {
+    width: 100vw;
+    padding-bottom: 4px;
+    color: #fafafa;
+    background:
+            linear-gradient(rgba(31, 31, 69, 0.9), rgba(31, 31, 69, 0.9)),
+            url("assets/istockphoto-1406960186-612x612.jpg");
+    background-size: contain;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.wrapper-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+}
+
+.text-content {
+    position: static;
+}
+
+.projects {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    background-color: #e7e2e2;
+    border-radius: 10px;
+}
+
+.project-button {
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact {
+    padding: 100px 20px;
+    color: #333;
+    background-color: #b7c1d2;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    flex: 0 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.contact-form {
+    flex: 1 1 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form > * {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: aqua;
+}
+
+section.hero {
+    background: linear-gradient(rgba(31, 31, 69, 0.9), rgba(31, 31, 69, 0.9)),
+    url("assets/istockphoto-1406960186-612x612.jpg");
+    padding-bottom: 4px;
+    background-size: contain;
+    background-position: top;
+    background-attachment: scroll;
+    color: #fafafa;
+    --color-accent: #8a2be2;
+    width: 100vw;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.wrapper-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+}
+
+.text-content {
+    position: static;
+}
+
+
+
+.projects {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    background-color: #e7e2e2;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+.contact {
+    background-color: #b7c1d2;
+    padding: 100px 20px;
+    color: #333;
+}
+
+.contact-form {
+    flex: 1 1 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form > * {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: aqua;
+}
+
+.contact-title {
+    flex: 0 0 200px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
